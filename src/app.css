@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .percentage {
@@ -179,34 +182,36 @@ body {
 }
 
 .contact-title {
-  font-size: 5em;
+  font-size: 2.5em;
   font-weight: 300;
   letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.904);
 }
 
 .horizontal-line {
   width: 100px;
   height: 1px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.100);
   display: block;
   margin: 0 auto;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .vertical-line {
-  width: 1px;
-  height: 100px;
-  border: 0.5px solid rgba(0, 0, 0, 0.075);
+  width: 0;
+  height: 40px;
+  border: 0.5px solid rgba(0, 0, 0, 0.100);
   display: block;
   margin: 0 auto;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .contact-email {
   font-weight: 300;
-  margin-bottom: 0.5rem;
+  margin-top: 1.3rem;
+  color: rgba(0, 0, 0, 0.904);
 }
 
 .contact-in {
@@ -281,8 +286,6 @@ body {
 
 /* laptop screen sizes */
 @media only screen and (min-width: 1281px) {
-
- 
   .me {
       margin-top: 13rem;
       margin-bottom: 14rem;
@@ -290,5 +293,8 @@ body {
       font-size: 4em;
   }
 
+  .contact-title {
+    font-size: 4em;
+  }
 
 }

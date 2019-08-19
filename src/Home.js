@@ -45,9 +45,8 @@ const Home = () => (
 
   <div className="contact-container">
     <h2 className="contact-title">Get in touch</h2>
-    <span className="horizontal-line"></span> 
+    <span className="vertical-line"></span> 
     <h3 className="contact-email">kuprionis@gmail.com</h3>
-    <a className="contact-in" href="https://www.linkedin.com/in/kuprionis/" target="_blank" rel="noopener noreferrer">in</a>
   </div>
 </div>
 );
