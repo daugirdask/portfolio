@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(235, 235, 235);
+}
+
+.background {
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  max-width: 600px;
+  height: 800px;
+  top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 30px;
+  right: 30px;
+  -webkit-box-shadow: 0px 0px 26px -11px rgba(0,0,0,0.30);
+-moz-box-shadow: 0px 0px 26px -11px rgba(0,0,0,0.30);
+box-shadow: 0px 0px 26px -11px rgba(0,0,0,0.30);
+  margin-top: 20px;
+}
+
+.user-text {
+  margin: 30px;
+}
+
+.buttons {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.button {
+  margin-right: 20px;
+  width: 15px;
+}
+
+
+
+.button-bold {
+  font-weight: bold;
+}
+
+.button-italic {
+  font-style: italic;
+}
+
+.button-highlight {
+  background-color: rgb(104, 228, 159); 
+}
+
+.button-save {
+  margin-left: auto;
+}
+
+[contenteditable="true"]:active,
+[contenteditable="true"]:focus {
+  border:none;
+  outline:none;
+}
+
+.highlight { 
+  background-color: rgb(104, 228, 159); 
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.align-left {
+  text-align: center5;
+}
+
+.selected {
+  background-color: red;
+}
+
+.normal {
+  font-style: normal;
+  font-weight: normal;
+}
+
+.button:hover {
+  cursor: pointer;
+}

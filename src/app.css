@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.percentage {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+}
+
+.loading-line {
+  width: 0px;
+  height: 1px;
+  border: 0.5px solid rgba(0, 0, 0, 0.075);
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+body {
+  background-image: url('./images/portfolio/background.png');
+  background-repeat: repeat;
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+/*
+
+.content {
+  display: none;
+}
+
+*/
+.nav {
+  z-index: 1;
+  margin: 0 auto;
+  width: 100%;
+  background: url('./images/portfolio/background.png');
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.nav-link {
+  color: #2d2d2d;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 0.8em;
+  margin: 0 1.5rem;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.808);
+}
+
+.nav-link:active {
+  border-bottom: 1px solid black;
+}
+
+.me {
+  text-align: center;
+  font-weight: 300;
+  color: #2d2d2d;
+  max-width: 90%;
+  margin: 5rem auto;
+  margin-bottom: 15rem;
+  margin-top: 10rem;
+  line-height: 1.4em;
+}
+
+.about {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+  border-right: 1px solid rgba(0, 0, 0, 0.075);
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.about-container {
+  max-width: 250px;
+  margin: 3rem auto;
+}
+
+.i-do {
+  border-top: 1px solid rgba(0, 0, 0, 0.075);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+  font-size: 2em;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.work {
+  margin-top: 10rem;
+  text-align: center;
+  margin-bottom: 8rem;
+  color: #2d2d2d;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 3em;
+}
+
+.title {
+  font-size: 1.5em;
+  margin-top: 10px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.text {
+  color: #2d2d2d;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+}
+
+.app-container {
+  text-align: center;
+  padding-bottom: 12rem;
+}
+
+.app-container img {
+  margin-left: 0.5rem;
+  max-width: 90%;
+}
+
+.app-title {
+  font-weight: 600;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin-top: 1.5rem;
+  color: #2d2d2d;
+}
+
+.app-text {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  color: #2d2d2d;
+}
+
+.button-text {
+  letter-spacing: 1px;
+  color: #2d2d2d;
+}
+
+.app-container button {
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  padding: 1rem 4rem;
+  color: #2d2d2d;
+}
+
+.app-container button:hover {
+  border: 1px solid rgba(0, 0, 0, 0.247);
+}
+
+.contact-container {
+  text-align: center;
+  margin-top: 5rem;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.021);
+}
+
+.contact-title {
+  font-size: 5em;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.horizontal-line {
+  width: 100px;
+  height: 1px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 100px;
+  border: 0.5px solid rgba(0, 0, 0, 0.075);
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-email {
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.contact-in {
+  color: black;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+.contact-in:hover {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+.horizontal-line-small {
+  margin: 1.5rem auto;
+  width: 120px;
+  border: 0.5px solid rgba(0, 0, 0, 0.075);
+  display: block;
+}
+
+/* mobile screen sizes */
+@media only screen and (min-width: 320px) {
+
+ 
+  .me {
+      margin-top: 8rem;
+      font-weight: 300;
+      margin-bottom: 5rem;
+      font-size: 2em;
+  }
+
+  .nav {
+      top: 0;
+      position: fixed;
+      padding: 1rem;
+      font-size: 0.8em;
+  }
+
+  .contact-title {
+      font-size: 3em;
+  }
+
+  .contact-email {
+      font-size: 1.5em;
+  }
+
+  .hr {
+      width: 100%;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      margin-bottom: 6rem;
+  }
+
+}
+
+/* tablet screen sizes */
+@media only screen and (min-width: 600px) {
+
+ 
+  .me {
+      margin-top: 8rem;
+      font-weight: 300;
+      font-size: 2.6em;
+      margin-bottom: 7rem;
+      margin-top: 8rem;
+  }
+
+  .hr {
+    display: none;
+  }
+}
+
+/* laptop screen sizes */
+@media only screen and (min-width: 1281px) {
+
+ 
+  .me {
+      margin-top: 13rem;
+      margin-bottom: 14rem;
+      font-weight: 300;
+      font-size: 4em;
+  }
+
+
+}
