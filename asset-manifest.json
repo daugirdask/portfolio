@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.291677c5.chunk.css",
-    "main.js": "/portfolio/static/js/main.279727bc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.279727bc.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.35739054.chunk.css",
+    "main.js": "/portfolio/static/js/main.564e0bcc.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.564e0bcc.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.c87e636a.chunk.js": "/portfolio/static/js/2.c87e636a.chunk.js",
-    "static/js/2.c87e636a.chunk.js.map": "/portfolio/static/js/2.c87e636a.chunk.js.map",
+    "static/js/2.a54b4ddb.chunk.js": "/portfolio/static/js/2.a54b4ddb.chunk.js",
+    "static/js/2.a54b4ddb.chunk.js.map": "/portfolio/static/js/2.a54b4ddb.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.1ed66bf4b4c02cb40460e8237c72df44.js": "/portfolio/precache-manifest.1ed66bf4b4c02cb40460e8237c72df44.js",
+    "precache-manifest.23cf02cb7ba95f410d16392cbb632c29.js": "/portfolio/precache-manifest.23cf02cb7ba95f410d16392cbb632c29.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.291677c5.chunk.css.map": "/portfolio/static/css/main.291677c5.chunk.css.map",
+    "static/css/main.35739054.chunk.css.map": "/portfolio/static/css/main.35739054.chunk.css.map",
     "static/media/Cloud.svg": "/portfolio/static/media/Cloud.79b3c647.svg",
     "static/media/Cloudy.svg": "/portfolio/static/media/Cloudy.534afba6.svg",
     "static/media/Fog.svg": "/portfolio/static/media/Fog.3694ef67.svg",
@@ -29,6 +29,6 @@
     "static/media/text-editor-app.png": "/portfolio/static/media/text-editor-app.405e8a80.png",
     "static/media/underline-text-button.svg": "/portfolio/static/media/underline-text-button.41cde361.svg",
     "static/media/undo-arrow.svg": "/portfolio/static/media/undo-arrow.0f28e7fa.svg",
-    "static/media/weather-app.png": "/portfolio/static/media/weather-app.fd878c08.png"
+    "static/media/weather-app.png": "/portfolio/static/media/weather-app.71e3bb3e.png"
   }
 }
