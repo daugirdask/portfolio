@@ -2,17 +2,30 @@ import React from 'react';
 import './app.css';
 import { Link } from "react-router-dom";
 
-const Home = () => (
-      <div className="content">
+class Home extends React.Component {
+  scrollWork = () => {
+    document.querySelector('.scrollWork').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+  }
+
+  scrollHome = () => {
+    document.querySelector('.me').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+  }
+
+  scrollContact = () => {
+    document.querySelector('.contact-container').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+  }
+
+  render() {
+    return <div className="content">
         <ul className="nav">
           <li className="nav-item">
-            <a className="nav-link active" href="#">Home</a>
+            <a className="nav-link active" onClick={this.scrollHome}>Home</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Work</a>
+            <a className="nav-link" onClick={this.scrollWork}>Work</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Contact</a>
+            <a className="nav-link" onClick={this.scrollContact}>Contact</a>
           </li>
         </ul>
 
@@ -20,7 +33,7 @@ const Home = () => (
 
   <div className="hr"></div>
 
-  <div className="app-container">
+  <div className="app-container scrollWork">
     <img src={require("./images/portfolio/text-editor-app.png")} alt="Text editor app" />
     <h2 className="app-title">Text editor</h2>
     <div className="horizontal-line-small"></div>
@@ -49,6 +62,7 @@ const Home = () => (
     <h3 className="contact-email">kuprionis@gmail.com</h3>
   </div>
 </div>
-);
+  }
+}
 
 export default Home;

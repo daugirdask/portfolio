@@ -12,16 +12,17 @@ body {
   position: absolute;
   z-index: 1;
   max-width: 600px;
-  height: 800px;
+  height: 600px;
   top: 10%;
   margin-left: auto;
   margin-right: auto;
   left: 30px;
   right: 30px;
   -webkit-box-shadow: 0px 0px 26px -11px rgba(0,0,0,0.30);
--moz-box-shadow: 0px 0px 26px -11px rgba(0,0,0,0.30);
-box-shadow: 0px 0px 26px -11px rgba(0,0,0,0.30);
-  margin-top: 20px;
+  -moz-box-shadow: 0px 0px 26px -11px rgba(0,0,0,0.30);
+  box-shadow: 0px 0px 26px -11px rgba(0,0,0,0.30);
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .user-text {
@@ -33,14 +34,13 @@ box-shadow: 0px 0px 26px -11px rgba(0,0,0,0.30);
   max-width: 600px;
   margin: 0 auto;
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .button {
   margin-right: 20px;
   width: 15px;
 }
-
-
 
 .button-bold {
   font-weight: bold;
@@ -56,6 +56,9 @@ box-shadow: 0px 0px 26px -11px rgba(0,0,0,0.30);
 
 .button-save {
   margin-left: auto;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: transparent;
 }
 
 [contenteditable="true"]:active,

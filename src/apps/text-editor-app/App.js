@@ -35,6 +35,13 @@ class App extends React.Component {
     }
   }
 
+  check = (e) => {
+    let editable = document.querySelector('.user-text').childElementCount
+    if (editable >= 25) {
+      alert('limit is reached');
+    }
+  }
+
   save = () => {  
     let userVersion = document.querySelector('.user-text').innerHTML;
     localStorage.userEdit = userVersion;
