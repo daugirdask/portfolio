@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "757758b4a1675d3ed43b2269d018edab",
+    "revision": "08a1a7da52ed91f65d910df07bb69724",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "9fcf3b3614ba487c626c",
-    "url": "/portfolio/static/css/main.a618ca2c.chunk.css"
+    "revision": "ba87b10a187a7928aa83",
+    "url": "/portfolio/static/css/main.d5eb7f06.chunk.css"
   },
   {
-    "revision": "16d2e6f8d41a8c7a1834",
-    "url": "/portfolio/static/js/2.a54b4ddb.chunk.js"
+    "revision": "c2fcd194466173fdfe32",
+    "url": "/portfolio/static/js/2.5351b998.chunk.js"
   },
   {
-    "revision": "9fcf3b3614ba487c626c",
-    "url": "/portfolio/static/js/main.567e5aff.chunk.js"
+    "revision": "ba87b10a187a7928aa83",
+    "url": "/portfolio/static/js/main.4153cd74.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/inmobilus-design.88f82537.png"
   },
   {
+    "revision": "7b96021454558b434143104ec92ab531",
+    "url": "/portfolio/static/media/inmobilus-website.7b960214.png"
+  },
+  {
     "revision": "a0bafb4c7d7e9c0e7ec673a865ce59b2",
     "url": "/portfolio/static/media/italicize-text.a0bafb4c.svg"
   },
@@ -92,7 +96,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/undo-arrow.0f28e7fa.svg"
   },
   {
-    "revision": "6c6f141386179c246d6cc18ca907bbb9",
-    "url": "/portfolio/static/media/weather-app.6c6f1413.png"
+    "revision": "a334d4c16d56a71e461148dce1a46e5f",
+    "url": "/portfolio/static/media/weather-app.a334d4c1.png"
   }
 ]);

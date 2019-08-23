@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a618ca2c.chunk.css",
-    "main.js": "/portfolio/static/js/main.567e5aff.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.567e5aff.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.d5eb7f06.chunk.css",
+    "main.js": "/portfolio/static/js/main.4153cd74.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4153cd74.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.a54b4ddb.chunk.js": "/portfolio/static/js/2.a54b4ddb.chunk.js",
-    "static/js/2.a54b4ddb.chunk.js.map": "/portfolio/static/js/2.a54b4ddb.chunk.js.map",
+    "static/js/2.5351b998.chunk.js": "/portfolio/static/js/2.5351b998.chunk.js",
+    "static/js/2.5351b998.chunk.js.map": "/portfolio/static/js/2.5351b998.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.69f76187dd8ac365f897a0a6b5ca49b2.js": "/portfolio/precache-manifest.69f76187dd8ac365f897a0a6b5ca49b2.js",
+    "precache-manifest.9465241b1435167a60d26127b237fc91.js": "/portfolio/precache-manifest.9465241b1435167a60d26127b237fc91.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.a618ca2c.chunk.css.map": "/portfolio/static/css/main.a618ca2c.chunk.css.map",
+    "static/css/main.d5eb7f06.chunk.css.map": "/portfolio/static/css/main.d5eb7f06.chunk.css.map",
     "static/media/Cloud.svg": "/portfolio/static/media/Cloud.79b3c647.svg",
     "static/media/Cloudy.svg": "/portfolio/static/media/Cloudy.534afba6.svg",
     "static/media/Fog.svg": "/portfolio/static/media/Fog.3694ef67.svg",
@@ -24,11 +24,12 @@
     "static/media/align-to-right.svg": "/portfolio/static/media/align-to-right.ca9c0d79.svg",
     "static/media/bold.svg": "/portfolio/static/media/bold.c681da46.svg",
     "static/media/inmobilus-design.png": "/portfolio/static/media/inmobilus-design.88f82537.png",
+    "static/media/inmobilus-website.png": "/portfolio/static/media/inmobilus-website.7b960214.png",
     "static/media/italicize-text.svg": "/portfolio/static/media/italicize-text.a0bafb4c.svg",
     "static/media/redo-arrow.svg": "/portfolio/static/media/redo-arrow.3012b921.svg",
     "static/media/text-editor-app.png": "/portfolio/static/media/text-editor-app.405e8a80.png",
     "static/media/underline-text-button.svg": "/portfolio/static/media/underline-text-button.41cde361.svg",
     "static/media/undo-arrow.svg": "/portfolio/static/media/undo-arrow.0f28e7fa.svg",
-    "static/media/weather-app.png": "/portfolio/static/media/weather-app.6c6f1413.png"
+    "static/media/weather-app.png": "/portfolio/static/media/weather-app.a334d4c1.png"
   }
 }
