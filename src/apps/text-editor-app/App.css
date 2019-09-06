@@ -7,6 +7,11 @@ body {
   background-color: rgb(235, 235, 235);
 }
 
+.container {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 .background {
   background-color: white;
   position: absolute;
@@ -16,25 +21,24 @@ body {
   top: 10%;
   margin-left: auto;
   margin-right: auto;
-  left: 30px;
-  right: 30px;
+  left: 40px;
+  right: 40px;
   -webkit-box-shadow: 0px 0px 26px -11px rgba(0,0,0,0.30);
   -moz-box-shadow: 0px 0px 26px -11px rgba(0,0,0,0.30);
   box-shadow: 0px 0px 26px -11px rgba(0,0,0,0.30);
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .user-text {
   margin: 30px;
+  
 }
 
 .buttons {
   display: flex;
   max-width: 600px;
   margin: 0 auto;
-  padding-top: 50px;
-  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .button {

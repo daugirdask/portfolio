@@ -32,7 +32,6 @@ class App extends React.Component {
       if (result.cod === '404') {
         document.querySelector('.error').innerHTML = 'Please enter valid city name';
       } else {
-        console.log(result);
         this.setState({
         isLoaded: true,
         temp: Math.floor(result.main.temp),
@@ -63,9 +62,7 @@ class App extends React.Component {
     if (e.target.value.length < 83) {
       this.setState({
         city: e.target.value,
-      }, () => { 
-        console.log(this.state.city);
-      });
+      })
     }
   };
  
