@@ -39,46 +39,48 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-/*
-
-.content {
-  display: none;
-}
-
-*/
 .nav {
+  position: fixed;
+  top: 0;
   z-index: 1;
   margin: 0 auto;
   width: 100%;
-  background: url('./images/portfolio/background.png');
+  background-image: url('./images/portfolio/background.png');
+  list-style: none;
+  justify-content: center;
+  font-size: 0.9em;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.096);
+  display: none;
+  padding: 1.2rem 0;
+}
+
+.nav-mobile {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  background-image: url('./images/portfolio/background.png');
   display: flex;
   list-style: none;
   justify-content: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 0.8em;
+  border-top: 1px solid rgba(117, 117, 117, 0.418);
   padding: 1rem;
-  transition: all 1s ease-in-out;
 }
+
 
 .nav-link {
   color: #2d2d2d;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 0.8em;
-  margin: 0 1.5rem;
+  letter-spacing: 3px;
   text-decoration: none;
-  padding: 0.3rem 0;
-  font-weight: 400;
-  
+  font-weight: 300;
+  padding: 0.5rem 0;
+  margin: 0 1rem;
 }
 
 .nav-link:hover {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.808);
   cursor: pointer;
-  transition: linear 0.3s;
-}
-
-.nav-link:active {
-  border-bottom: 1px solid black;
 }
 
 .me {
@@ -90,13 +92,11 @@ body {
   margin-bottom: 15rem;
   margin-top: 10rem;
   line-height: 1.4em;
+  font-size: 3em;
 }
 
-.about {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.075);
-  border-right: 1px solid rgba(0, 0, 0, 0.075);
-  text-align: center;
-  color: #2d2d2d;
+.developer {
+  font-size: 0.6em;
 }
 
 .about-container {
@@ -143,40 +143,44 @@ body {
 
 .app-container {
   text-align: center;
-  padding-bottom: 12rem;
+  padding-bottom: 14rem;
 }
 
 .app-container img {
-  margin-left: 0.5rem;
-  max-width: 90%;
+  margin-left: 2rem;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .app-title {
   font-weight: 600;
   letter-spacing: 1.3px;
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 1.3rem;
   margin-top: 1.5rem;
   color: #2d2d2d;
 }
 
 .app-text {
-  width: 300px;
   margin: 0 auto;
   margin-bottom: 2rem;
   letter-spacing: 1px;
   color: #2d2d2d;
+  max-width: 90%;
+  font-size: 1em;
 }
 
 .button-text {
   letter-spacing: 1px;
   color: #2d2d2d;
+  font-weight: 600;
+  font-size: 1em;
 }
 
 .app-container button {
   background: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.075);
-  padding: 1rem 4rem;
+  border: 1px solid rgba(0, 0, 0, 0.281);
+  padding: 1rem 3rem;
   color: #2d2d2d;
 }
 
@@ -194,7 +198,7 @@ body {
 }
 
 .contact-title {
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: 300;
   letter-spacing: 2px;
   color: rgba(0, 0, 0, 0.904);
@@ -224,6 +228,7 @@ body {
   font-weight: 300;
   margin-top: 1.3rem;
   color: rgba(0, 0, 0, 0.904);
+  font-size: 1.4em;
 }
 
 .contact-in {
@@ -245,68 +250,54 @@ body {
   display: block;
 }
 
-/* mobile screen sizes */
-@media only screen and (min-width: 320px) {
-
- 
-  .me {
-      margin-top: 8rem;
-      font-weight: 300;
-      margin-bottom: 5rem;
-      font-size: 2em;
-  }
-
-  .nav {
-      top: 0;
-      position: fixed;
-      padding: 1rem;
-      font-size: 0.8em;
-  }
-
-  .contact-title {
-      font-size: 3em;
-  }
-
-  .contact-email {
-      font-size: 1.5em;
-  }
-
-  .hr {
-      width: 100%;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-      margin-bottom: 6rem;
-  }
-
-}
-
-/* tablet screen sizes */
 @media only screen and (min-width: 600px) {
 
- 
   .me {
-      margin-top: 8rem;
-      font-weight: 300;
-      font-size: 2.6em;
-      margin-bottom: 7rem;
-      margin-top: 8rem;
+    margin-top: 13rem;
+    font-size: 4em;
   }
 
-  .hr {
-    display: none;
+  .app-container img {
+    max-width: 600px;
   }
-}
 
-/* laptop screen sizes */
-@media only screen and (min-width: 1281px) {
-  .me {
-      margin-top: 13rem;
-      margin-bottom: 14rem;
-      font-weight: 300;
-      font-size: 4em;
+  .app-title {
+    font-size: 1.25em;
+  }
+  
+  .app-text {
+    width: 450px;
+    font-size: 1.1em;
   }
 
   .contact-title {
     font-size: 4em;
   }
+
+  .contact-email {
+    font-size: 1.6em;
+  }
+
+  .nav-mobile {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    font-size: 0.8em;
+  }
+
+  .nav-link {
+    margin-left: 3.5rem;
+    margin-right: 1.6rem;
+  }
+
+  .nav-link:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.397);
+    cursor: pointer;
+    transition: ease 0.35s;
+  }
+  
+
 
 }

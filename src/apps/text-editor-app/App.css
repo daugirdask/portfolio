@@ -30,7 +30,7 @@ body {
 
 .user-text {
   margin: 30px;
-  
+  height: 600px;
 }
 
 .buttons {
@@ -69,6 +69,7 @@ body {
 [contenteditable="true"]:focus {
   border:none;
   outline:none;
+  height: 500px;
 }
 
 .highlight { 

@@ -35,8 +35,8 @@ class App extends React.Component {
     }
   }
 
-  check = (e) => {
-    let editable = document.querySelector('.user-text').childElementCount
+  check = () => {
+    let editable = document.querySelector('.user-text');
     if (editable >= 25) {
       alert('Limit is reached');
     }
@@ -130,4 +130,3 @@ class App extends React.Component {
 }
 
 export default App;
-

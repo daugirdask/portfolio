@@ -7,9 +7,9 @@ import TextEditorApp from './apps/text-editor-app/App';
 const App = () => (
   <BrowserRouter>
     <div>
-      <Route exact path="/portfolio/" component={Home}></Route>
-      <Route path="/weather-app/" component={WeatherApp}></Route>
-      <Route path="/text-editor-app/" component={TextEditorApp}></Route>
+      <Route exact path="/portfolio" component={Home}></Route>
+      <Route path="/weather-app" component={WeatherApp}></Route>
+      <Route path="/text-editor-app" component={TextEditorApp}></Route>
     </div>
   </BrowserRouter>
 )

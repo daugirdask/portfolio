@@ -23,7 +23,7 @@ class App extends React.Component {
     this.logValue = this.logValue.bind(this);
     this.enterValue = this.enterValue.bind(this);
   }  
-
+  
   returnData() {
     const { url, city, api } = this.state;
     fetch(url + city + api)
