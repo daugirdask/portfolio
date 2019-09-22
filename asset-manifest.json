@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.194f3735.chunk.css",
+    "main.css": "/portfolio/static/css/main.5deb6fad.chunk.css",
     "main.js": "/portfolio/static/js/main.dd561bfb.chunk.js",
     "main.js.map": "/portfolio/static/js/main.dd561bfb.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
@@ -8,9 +8,9 @@
     "static/js/2.a54b4ddb.chunk.js": "/portfolio/static/js/2.a54b4ddb.chunk.js",
     "static/js/2.a54b4ddb.chunk.js.map": "/portfolio/static/js/2.a54b4ddb.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.2fc87c72eb5015c2e4e3ee39e8e0fb33.js": "/portfolio/precache-manifest.2fc87c72eb5015c2e4e3ee39e8e0fb33.js",
+    "precache-manifest.e5ad07740c531f2568b8ed1ec3b2d41c.js": "/portfolio/precache-manifest.e5ad07740c531f2568b8ed1ec3b2d41c.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.194f3735.chunk.css.map": "/portfolio/static/css/main.194f3735.chunk.css.map",
+    "static/css/main.5deb6fad.chunk.css.map": "/portfolio/static/css/main.5deb6fad.chunk.css.map",
     "static/media/Cloud.svg": "/portfolio/static/media/Cloud.79b3c647.svg",
     "static/media/Cloudy.svg": "/portfolio/static/media/Cloudy.534afba6.svg",
     "static/media/Fog.svg": "/portfolio/static/media/Fog.3694ef67.svg",
